@@ -1,1 +1,35 @@
 ### ffmpeg-kit-frameworks
+
+#### 0.0.4
+```bash
+git@github.com:arthenica/ffmpeg-kit.git
+cd ffmpeg-kit
+```
+Ios 平台构建脚本
+```bash
+./ios.sh --enable-gpl --enable-openssl --xcframework \
+--disable-lib-x264 \
+--disable-lib-x265 \
+--disable-lib-vpx \
+--disable-lib-theora \
+--disable-lib-webp \
+--disable-lib-jpeg \
+--disable-lib-png \
+--disable-lib-tiff \
+--disable-lib-zimg \
+--disable-lib-aom
+```
+Macos 平台构建脚本
+```bash
+./macos.sh --enable-gpl --enable-openssl --xcframework \
+--disable-lib-x264 \
+--disable-lib-x265 \
+--disable-lib-vpx \
+--disable-lib-theora \
+--disable-lib-webp \
+--disable-lib-jpeg \
+--disable-lib-png \
+--disable-lib-tiff \
+--disable-lib-zimg \
+--disable-lib-aom
+```
