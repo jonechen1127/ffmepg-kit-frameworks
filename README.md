@@ -2,7 +2,7 @@
 
 #### 0.0.4
 ```bash
-git@github.com:arthenica/ffmpeg-kit.git
+git clone git@github.com:arthenica/ffmpeg-kit.git
 cd ffmpeg-kit
 ```
 Ios 平台构建脚本
